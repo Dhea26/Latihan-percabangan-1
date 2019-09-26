@@ -16,7 +16,7 @@ int main(){
 	}
 	else if(memilih=="pembagian"){
 		hasil= x/y;
-		cout<<"Hasil pembagina: "<<hasil<<endl;
+		cout<<"Hasil pembagian: "<<hasil<<endl;
 	}
 	else if(memilih=="perkalian" ){
 		hasil= x*y;
@@ -27,9 +27,9 @@ int main(){
 		cout<<"Hasil pengurangan: "<<hasil<<endl;
 	}
 	else{
-		cout<<"Anda tidak memilih: "<<hasil<<endl;
+		cout<<"Anda tidak memilih"<<endl;
 	}
-	cout<<"Program ini adalah program  sederhana: "<<hasil<<endl;
+	cout<<"Program ini adalah program kalkulator sederhana: "<<hasil<<endl;
 	
 	return 0;
 }
